@@ -24,7 +24,15 @@ export async function GET(req) {
     },
   })
 
-  let posts = await getPostsForFeed()
+  let posts = []
+try {
+  posts = await getPostsForFeed()
+  if (!Array.isArray(posts)) throw new Error('Sanity API returned invalid data')
+} catch (error) {
+  console.error('Failed to fetch posts for RSS feed:', error)
+  return new Response('Error fetching blog posts', { status: 500 })
+}
+
 
   posts.forEach((post) => {
     try {
