@@ -15,7 +15,7 @@ import { Heading } from '@/components/text'
 const links = [
   // { href: '/pricing', label: 'Pricing' },
   { href: '/company', label: 'Company' },
-  { href: '/blog', label: 'Blog' },
+  { href: '/', label: 'Blog' },
   { href: '/login', label: 'Login' },
 ]
 

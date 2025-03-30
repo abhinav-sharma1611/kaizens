@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
           rel="alternate"
           type="application/rss+xml"
           title="The Radiant Blog"
-          href="/blog/feed.xml"
+          href="/"
         />
       </head>
       <body className="text-gray-950 antialiased">{children}</body>
