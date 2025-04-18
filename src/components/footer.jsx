@@ -14,16 +14,15 @@ function CallToAction() {
         <p className="mt-6 text-3xl font-medium tracking-tight text-gray-950 sm:text-5xl">
           Ready to dive in?
           <br />
-          Start your free trial today.
+          Communication is the Key
         </p>
       </hgroup>
-      <p className="mx-auto mt-6 max-w-xs text-sm/6 text-gray-500">
-        Get the cheat codes for selling and unlock your team&apos;s revenue
-        potential.
+      <p className="mx-auto mt-6 max-w-xl text-sm/6 text-gray-500">
+      We strive to stay in communication with our clients. Have a question about our business, or want to see if we match your specific needs? Send us a message, or give us a call. We're always happy to meet new customers!
       </p>
       <div className="mt-6">
         <Button className="w-full sm:w-auto" href="#">
-          Get started
+         Get started
         </Button>
       </div>
     </div>
@@ -52,14 +51,14 @@ function SitemapLink(props) {
 function Sitemap() {
   return (
     <>
-      <div>
+      {/* <div>
         <SitemapHeading>Product</SitemapHeading>
         <SitemapLinks>
           <SitemapLink href="/pricing">Pricing</SitemapLink>
           <SitemapLink href="#">Analysis</SitemapLink>
           <SitemapLink href="#">API</SitemapLink>
         </SitemapLinks>
-      </div>
+      </div> */}
       <div>
         <SitemapHeading>Company</SitemapHeading>
         <SitemapLinks>
@@ -148,7 +147,7 @@ function SocialLinks() {
 function Copyright() {
   return (
     <div className="text-sm/6 text-gray-950">
-      &copy; {new Date().getFullYear()} Radiant Inc.
+      &copy; {new Date().getFullYear()} Kaizens HealthCare
     </div>
   )
 }
@@ -165,7 +164,8 @@ export function Footer() {
               <div className="grid grid-cols-2 gap-y-10 pb-6 lg:grid-cols-6 lg:gap-8">
                 <div className="col-span-2 flex">
                   <PlusGridItem className="pt-6 lg:pb-6">
-                    <Logo className="h-9" />
+                    Kaizens
+                    {/* <Logo className="h-9" /> */}
                   </PlusGridItem>
                 </div>
                 <div className="col-span-2 grid grid-cols-2 gap-x-8 gap-y-12 lg:col-span-4 lg:grid-cols-subgrid lg:pt-6">

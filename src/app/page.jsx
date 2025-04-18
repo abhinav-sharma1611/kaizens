@@ -38,17 +38,17 @@ function Hero() {
           }
         />
         <div className="pt-16 pb-24 sm:pt-24 sm:pb-32 md:pt-32 md:pb-48">
-          <h1 className="font-display text-4xl/[0.9] font-medium tracking-tight text-balance text-gray-950 sm:text-6xl/[0.8] md:text-7xl/[0.8]">
-          A platform that sets the standard for healthcare performance
+          <h1 className="font-display text-2xl/[1] font-medium tracking-tight text-balance text-gray-950 sm:text-4xl/[1] md:text-5xl/[1]">
+          Welcome to Kaizens. We're dedicated to transforming healthcare through innovative solutions.
           </h1>
-          <p className="mt-8 max-w-lg text-xl/7 font-medium text-gray-950/75 sm:text-2xl/8">
-          Transforming healthcare finance for better provider outcomes
+          <p className="mt-8 text-xl/7 font-medium text-gray-950/75 sm:text-2xl/8">
+         Empowering providers with cutting-edge technology and expertise, we enable exceptional patient care. Our specialized services optimize revenue cycles, streamline operations, and reduce administrative tasks, allowing you to focus on what matters most – delivering outstanding healthcare.
           </p>
           <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
             <Button href="#">Get started</Button>
-            <Button variant="secondary" href="/pricing">
+            {/* <Button variant="secondary" href="/pricing">
               See pricing
-            </Button>
+            </Button> */}
           </div>
         </div>
       </Container>
@@ -59,15 +59,14 @@ function Hero() {
 function FeatureSection() {
   return (
     <div className="overflow-hidden">
-      <Container className="pb-24">
-        <Heading as="h2" className="max-w-3xl">
-        US Healthcare RCM Outsourcing Market Forecast
+      <Container className="pb-24 max-w-none">
+        <Heading as="h2" className="max-w-xl">
+          RCM Industry Forecast and Opportunities
         </Heading>
         <Screenshot
-          width={1216}
           height={768}
-          src="/screenshots/app.png"
-          className="mt-16 h-[36rem] sm:h-auto sm:w-[76rem]"
+          src="/screenshots/test.png"
+          className="mt-16 w-full h-auto object-cover"
         />
       </Container>
     </div>
@@ -77,57 +76,57 @@ function FeatureSection() {
 function BentoSection() {
   return (
     <Container>
-      <Subheading>Sales</Subheading>
+      <Subheading>Story Behind</Subheading>
       <Heading as="h3" className="mt-2 max-w-3xl">
-        Know more about your customers than they do.
+        Why Kaizens?
       </Heading>
 
-      <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
+      <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6">
         <BentoCard
           eyebrow="Insight"
           title="Get perfect clarity"
-          description="Radiant uses social engineering to build a detailed financial picture of your leads. Know their budget, compensation package, social security number, and more."
+          description="At Kaizen Healthcare, we are a trusted partner in Revenue Cycle Management and Analytics Solutions, delivering end-to-end, cost-effective, and technology-driven services tailored to the needs of healthcare providers. Backed by over 50 years of collective experience with two of the largest US payors, we bring a deep understanding of the US healthcare ecosystem, having actively contributed to its evolution and engaged with a diverse network of clinicians, non-clinicians, and health plans across all 51 states."
           graphic={
-            <div className="h-80 bg-[url(/screenshots/profile.png)] bg-[size:1000px_560px] bg-[left_-109px_top_-112px] bg-no-repeat" />
+            <div className="h-80 bg-[url(/screenshots/whykaizen.svg)] bg-[size:970px_400px] bg-[left_-175px_top_9px] bg-no-repeat" />
           }
-          fade={['bottom']}
+          // fade={['bottom']}
           className="max-lg:rounded-t-4xl lg:col-span-3 lg:rounded-tl-4xl"
         />
         <BentoCard
-          eyebrow="Analysis"
-          title="Undercut your competitors"
-          description="With our advanced data mining, you’ll know which companies your leads are talking to and exactly how much they’re being charged."
+          eyebrow="Approach"
+          title="Focus your investments where they matter the most. Modernize your infrastructure, applications, and services—all with one turnkey BPaaS approach."
+          description="Our 360-degree approach enables us to tackle complex healthcare challenges by collaborating closely with providers, payors, and patients. Additionally, our expertise spans across the most widely used Electronic Health Records (EHRs), ensuring seamless integration and optimized performance for healthcare organizations."
           graphic={
-            <div className="absolute inset-0 bg-[url(/screenshots/competitors.png)] bg-[size:1100px_650px] bg-[left_-38px_top_-73px] bg-no-repeat" />
+            <div className="absolute inset-0 bg-[url(/screenshots/approach.png)] bg-[size:776px_582px] bg-[left_-72px_top_-106px] bg-no-repeat" />
           }
-          fade={['bottom']}
+          // fade={['bottom']}
           className="lg:col-span-3 lg:rounded-tr-4xl"
         />
-        <BentoCard
+        {/* <BentoCard
           eyebrow="Speed"
           title="Built for power users"
-          description="It’s never been faster to cold email your entire contact list using our streamlined keyboard shortcuts."
+          description="It's never been faster to cold email your entire contact list using our streamlined keyboard shortcuts."
           graphic={
             <div className="flex size-full pt-10 pl-10">
               <Keyboard highlighted={['LeftCommand', 'LeftShift', 'D']} />
             </div>
           }
           className="lg:col-span-2 lg:rounded-bl-4xl"
-        />
-        <BentoCard
+        /> */}
+        {/* <BentoCard
           eyebrow="Source"
           title="Get the furthest reach"
           description="Bypass those inconvenient privacy laws to source leads from the most unexpected places."
           graphic={<LogoCluster />}
           className="lg:col-span-2"
-        />
-        <BentoCard
+        /> */}
+        {/* <BentoCard
           eyebrow="Limitless"
           title="Sell globally"
           description="Radiant helps you sell in locations currently under international embargo."
           graphic={<Map />}
           className="max-lg:rounded-b-4xl lg:col-span-2 lg:rounded-br-4xl"
-        />
+        /> */}
       </div>
     </Container>
   )
@@ -194,15 +193,15 @@ export default function Home() {
       <Hero />
       <main>
         <Container className="mt-10">
-          <LogoCloud />
+          {/* <LogoCloud /> */}
         </Container>
         <div className="bg-linear-to-b from-white from-50% to-gray-100 py-32">
           <FeatureSection />
           <BentoSection />
         </div>
-        <DarkBentoSection />
+        {/* <DarkBentoSection /> */}
       </main>
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Footer />
     </div>
   )
