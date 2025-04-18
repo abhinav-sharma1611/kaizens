@@ -39,7 +39,7 @@ function Hero() {
         />
         <div className="pt-16 pb-24 sm:pt-24 sm:pb-32 md:pt-32 md:pb-48">
           <h1 className="font-display text-2xl/[1] font-medium tracking-tight text-balance text-gray-950 sm:text-4xl/[1] md:text-5xl/[1]">
-          Welcome to Kaizens. We are dedicated to transforming healthcare through innovative solutions.
+          Welcome to Kaizens. We&apos;re dedicated to transforming healthcare through innovative solutions.
           </h1>
           <p className="mt-8 text-xl/7 font-medium text-gray-950/75 sm:text-2xl/8">
          Empowering providers with cutting-edge technology and expertise, we enable exceptional patient care. Our specialized services optimize revenue cycles, streamline operations, and reduce administrative tasks, allowing you to focus on what matters most – delivering outstanding healthcare.
