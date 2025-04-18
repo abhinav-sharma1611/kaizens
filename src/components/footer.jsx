@@ -18,7 +18,7 @@ function CallToAction() {
         </p>
       </hgroup>
       <p className="mx-auto mt-6 max-w-xl text-sm/6 text-gray-500">
-      We strive to stay in communication with our clients. Have a question about our business, or want to see if we match your specific needs? Send us a message, or give us a call. We're always happy to meet new customers!
+      We strive to stay in communication with our clients. Have a question about our business, or want to see if we match your specific needs? Send us a message, or give us a call. We are always happy to meet new customers!
       </p>
       <div className="mt-6">
         <Button className="w-full sm:w-auto" href="#">
